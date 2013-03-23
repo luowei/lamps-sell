@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+         <diskStore path="java.io.tmpdir"/>
+				<!-- 默认的cache -->
+                <defaultCache
+                        maxElementsInMemory="10000"
+                        eternal="true"
+                        timeToIdleSeconds="120"
+                        timeToLiveSeconds="120"
+                        overflowToDisk="true"
+                        diskPersistent="false"
+                        diskExpiryThreadIntervalSeconds="120"              
+                        />
+
+                <cache name="Test"
+                       maxElementsInMemory="10000"
+                       eternal="true"
+                       overflowToDisk="true"
+                       timeToIdleSeconds="2"
+                       timeToLiveSeconds="600"     
+                        />  
+                                                 
+</ehcache>
+<!-- 
+ <cacheManagerEventListenerFactory class="ehcache.CMELF"/>
+参数说明：
+name          - 元素名字。
+maxElementsInMemory           - 设定内存中创建对象的最大值。
+overflowToDisk- 设置当内存中缓存达到 maxInMemory 限制时元素是否可写到磁盘
+       上。
+eternal       - 设置元素（译注：内存中对象）是否永久驻留。如果是，将忽略超
+      时限制且元素永不消亡。
+timeToIdleSeconds             - 设置某个元素消亡前的停顿时间。
+      也就是在一个元素消亡之前，两次访问时间的最大时间间隔值。
+      这只能在元素不是永久驻留时有效（译注：如果对象永恒不灭，则
+      设置该属性也无用）。
+      如果该值是 0 就意味着元素可以停顿无穷长的时间。
+timeToLiveSeconds             - 为元素设置消亡前的生存时间。
+       也就是一个元素从构建到消亡的最大时间间隔值。
+       这只能在元素不是永久驻留时有效。N秒后消亡
+ -->
+
+

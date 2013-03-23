@@ -1,0 +1,8 @@
+body				{margin:0px; font-size:12px; background-image:url("bg_login.png"); background-position:bottom; background-repeat:repeat-x; background-color:#A2D5F0;}
+td, div				{font-size:12px;}		
+#login				{color:white; background-image:url("bg_login.png"); background-position:bottom; background-repeat:repeat-x; background-color:#A2D5F0;}
+#login #root		{background-image:url("");}
+#login #main		{background-image:url("login_main.png");}
+#login * td			{color:white;}
+#login a			{color:white; text-decoration:none;}
+#login .textbox		{width:180px}
