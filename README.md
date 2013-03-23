@@ -11,4 +11,4 @@ lamps-sell
 ![首页截图](https://raw.github.com/luowei/lamps-sell/master/doc/images/index.png)
 
 ## 后台截图:
-![后台截图]:(https://raw.github.com/luowei/lamps-sell/master/doc/images/manage.png)
+![后台截图](https://raw.github.com/luowei/lamps-sell/master/doc/images/manage.png)
