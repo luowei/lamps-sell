@@ -20,6 +20,8 @@ Thumbs.db
 .mymetadata
 *.scc
 
+.claude/
+
 #===========================
 #eclipse
 *.pydevproject
